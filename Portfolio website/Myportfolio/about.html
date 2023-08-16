@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sass/style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- font (google) -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>
+</head>
+<body>
+<!-- PRELOADER -->
+<div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>  
+<header>
+  <nav>
+    <div class="logo-container">
+      <a href="index.html"><img src="img/logo.jpeg" style="border-radius: 40%;" alt="logo"></a>
+    </div>
+    <div class="navigation-container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+  <section class="about">
+    <div class="container">
+      <h1>About me</h1>
+      <p>A highly skilled professional with expertise in software engineering, and a full stack developer</p>
+    </div>  <!-- .about-me -->
+  </section>  <!-- .about -->
+  <section class="why">
+    <div class="container">
+      <h2>What actually I do?</h2>
+      <p>As a computer student, a unique combination of technical expertise and business acumen is brought to every project. A deep understanding of software engineering, full stack development, and data analytics is applied to deliver innovative and effective technology solutions, driving business success. A creative problem-solver dedicated to finding the right solution for each client, no matter how complex the challenge.</p>
+      <p>When working together, personalized attention and a commitment to your success are ensured. Careful listening to your needs and understanding your business goals allow for the development of customized solutions that meet specific requirements. Whether seeking improvements to current systems or creating something entirely new, the skills and experience are in place to deliver results that propel your business forward.</p>
+      <img src="./img/photo-8.jpg" alt="final year student">
+      <p>If you're searching for a computer engineer capable of harnessing the power of technology to drive your business forward, it would be an honor to collaborate with you.<a href="contact.html">Contact </a> today to learn more.</p>
+    </div>    <!-- .why-container -->
+  </section>  <!-- .why -->
+
+  <section class="sec-professional-accomplishments" style="background-color:  rgb(243, 245, 245);">
+    <div class="container">
+      <h2> Professional Certifications</h2>
+      <div class="accomplishments">
+        <div class="item">
+          <center style="padding: 10px;"><img src="./img/aws.jpeg" alt="achievement" style="align-items: center;" ></center>
+          <p>Successfully completed the summer internship course offered by Amazon AWS acquiring
+            valuable training and earning certification.</p>
+        </div> <!-- .item -->
+        <div class="item">
+          <img src="./img/project-2.jpg" alt="achievement" >
+          <p>Successfully completed Java, C++, MySQL, and PHP training at VIT Chennai with course
+            materials from Spoken Tutorial Project, IIT Bombay.</p>
+        </div> <!-- .item -->
+        <div class="item">
+          <img src="./img/project-4.jpg" alt="achievement" >
+          <p>Successfully Completed SmartBridge summer externship with training, certification, and Java
+            Spring Boot backend project.</p>
+        </div> <!-- .item -->
+      </div>
+    </div>
+  </section>
+  <section class="sec-testimonials">
+    <h2>Testimonials </h2>
+    <div class="slideshow-container">
+      <div class="mySlides fade bg1">
+        <div class="numbertext">1 / 3</div>
+        <blockquote class="text">He is a dedicated and hardworking student who has shown remarkable progress since his first year of college. His determination and commitment to his studies have allowed him to climb up and achieve academic success over the years.</blockquote>
+        
+        <p class="designation">Dr. AK Illavarisi , Professor in VIT Chennai</p>
+      </div> <!-- .mySlides -->
+    
+      <div class="mySlides fade bg2">
+        <div class="numbertext">2 / 3</div>
+        <blockquote class="text">He is a highly competitive individual who never gives up on his goals. His tenacity and determination set him apart, as he relentlessly pursues excellence in all his endeavors. No matter the challenges he faces, he remains steadfast in his pursuit of success, always pushing himself to go the extra mile.💥</blockquote>
+      
+        <p class="designation">Trainer - Spoken Tutorial Project, IIT Bombay </p>
+      </div> <!-- .mySlides -->
+    
+      <div class="mySlides fade bg3">
+        <div class="numbertext">3 / 3</div>
+        <blockquote class="text">He is a smart and creative individual who excels in finding innovative solutions to complex problems. His sharp intellect allows him to approach tasks with a unique perspective, leading to effective and efficient results. Additionally, he is known for his ability to work smartly, optimizing his efforts to achieve the best outcomes.</blockquote>
+        <p class="designation">Collegeues in college</p>
+      </div> <!-- .mySlides -->
+    
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div> <!-- .slideshow-container -->
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </section> <!-- .sec-testimonials -->
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <a href="index.html"><img src="img/logo.jpeg" style="border-radius: 40%;" alt="logo"></a>
+        <p>With a proven track record of delivering innovative and effective technology solutions,if you are currently seeking to improve your existing systems we would be honored to collaborate with you. Together, we can combine our expertise and work towards achieving remarkable results for your project.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact options</h4>
+        <p><a href="mailto:ashwin.vitcse@gmail.com">Email </a></p>
+        <p> <a href="tel:9444072249">+91 9444072249</a></p>
+        <p><a href="https://www.linkedin.com/in/ashwinsivasankar-venkatesan/">LinkedIn profile</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Sitemap</h4>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>        
+      </div>
+    </div>
+    <div class="bottombar">Copyright © 2023 Ashwin. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
